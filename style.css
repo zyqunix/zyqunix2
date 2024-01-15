@@ -1,4 +1,5 @@
 body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: #000000;
 }
 
@@ -23,28 +24,12 @@ p {
   color: #ffff;
 }
 
-@keyframes slideInTop {
-  from {
-    transform: translateY(-500px);
-  }
-
-  to {
-    transform: translateY(0px);
-  }
-}
-
 .container {
   color: #ffff;
-
+  transform: scale(1.5);
   display: flex;
   flex-direction: column;
   justify-content:center;
   align-items: center;
   height: 650px;
-  transform: scale(2);
-
-  animation-name: slideInTop;
-  animation-duration: 1s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: none;
 }
