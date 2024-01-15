@@ -18,6 +18,6 @@ function checkPassword() {
   if (passwords.includes(password)) {
     window.location.href = 'success.html';
   } else {
-    document.getElementById('message').textContent = 'try again bro';
+    document.getElementById('message').textContent = 'Try Again.';
   }
 }
